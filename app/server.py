@@ -9,10 +9,11 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1esyb_7HlR9-N1mdkqbGsiXxhjIckxgXI'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1Vfl0c0tRPYG3C3NnqK1O2RNK5iM6q3kw'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1esyb_7HlR9-N1mdkqbGsiXxhjIckxgXI'
 #export_file_url = 'https://drive.google.com/uc?export=download&id=1BpLsy4Us3YTdlv3e1qFX0vwoGzRWiWsn'
 #export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export_jaffna_hpl.pkl'
+export_file_name = 'export_blur.pkl'
 
 classTamil = list(range(0,156))
 classes = classTamil
